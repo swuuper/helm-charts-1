@@ -159,7 +159,7 @@ unpoller:
       enable = true
       port   = 37288
       # The HTML path is different on Windows and BSD/macOS.
-      html_path     = "/usr/lib/unifi-poller/web"
+      html_path     = "/etc/unpoller/"
       ssl_cert_path = ""
       ssl_key_path  = ""
       # How many events per event group to hold. 200-2000. Use fewer with many sites.
